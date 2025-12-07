@@ -1,13 +1,11 @@
-// next.config.ts
 import type { NextConfig } from 'next';
 
-const useBasePath = process.env.NEXT_PUBLIC_BASEPATH === 'true';
-
+const useBasePath = process.env.NEXTPUBLIC_BASE_PATH;
 const nextConfig: NextConfig = {
   reactCompiler: true,
   output: 'export',
   basePath: useBasePath ? '/portfolio' : '',
-  assetPrefix: useBasePath ? '/portfolio/' : '',
+  assetPrefix: useBasePath ? '/portfolio' : '',
   trailingSlash: true,
   images: { unoptimized: true },
 };
