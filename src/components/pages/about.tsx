@@ -140,6 +140,7 @@ export default function About() {
               src={CV}
               alt='Resume Preview'
               fill
+              priority
               className='object-contain p-4 group-hover:scale-105 transition-transform duration-300'
             />
           </div>

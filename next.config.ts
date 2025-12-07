@@ -6,7 +6,10 @@ const nextConfig: NextConfig = {
   basePath: '',
   assetPrefix: '',
   trailingSlash: true,
-  images: { unoptimized: true },
+  images: {
+    unoptimized: false,
+    remotePatterns: [{ protocol: 'https', hostname: '**' }],
+  },
 };
 
 export default nextConfig;
