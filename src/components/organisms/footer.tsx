@@ -1,4 +1,4 @@
-import { FileCode, Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
 
           <div className='flex items-center space-x-6'>
             <a
-              href='https://linkedin.com'
+              href='https://www.linkedin.com/in/mohammed-mahmoud-0684067390/'
               target='_blank'
               rel='noopener noreferrer'
               className='hover:text-[#0077b5] transition-colors duration-300'
@@ -23,23 +23,13 @@ const Footer = () => {
             </a>
 
             <a
-              href='https://github.com'
+              href='https://github.com/MohammadMahmoud'
               target='_blank'
               rel='noopener noreferrer'
               className='hover:text-black transition-colors duration-300'
             >
               <Github size={18} />
               <span className='sr-only'>GitHub</span>
-            </a>
-
-            <a
-              href='#'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='hover:text-[#f48024] transition-colors duration-300'
-            >
-              <FileCode size={18} />
-              <span className='sr-only'>StackOverflow</span>
             </a>
           </div>
         </div>
