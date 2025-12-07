@@ -17,7 +17,7 @@ export default function About() {
 
         <div className='flex flex-col md:flex-row gap-12 items-start'>
           <div className='w-full md:w-1/3 flex justify-center md:justify-start'>
-            <div className='relative w-72 h-80 md:w-full md:h-[500px] rounded-xl overflow-hidden shadow-2xl shadow-gray-200'>
+            <div className='relative w-72 h-80 md:w-full md:h-[600px] rounded-xl overflow-hidden shadow-2xl shadow-gray-200'>
               <Image
                 src={MyPicture}
                 alt='Mohammed Profile'

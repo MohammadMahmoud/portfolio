@@ -28,7 +28,7 @@ const Header = () => {
       } bg-background`}
     >
       <div className='max-w-7xl mx-auto px-6 lg:px-12'>
-        <div className='grid grid-cols-2 md:grid-cols-3 items-center'>
+        <div className='grid grid-cols-3 md:grid-cols-3 items-center'>
           <div className='hidden md:flex items-center space-x-6 lg:space-x-8 justify-start'>
             {navLinks.map((link) => (
               <Link
@@ -50,14 +50,14 @@ const Header = () => {
             </button>
           </div>
 
-          <div className='flex justify-end md:justify-center'>
+          <div className='flex  justify-center'>
             <Link href='/' className='relative block'>
               <LogoTerminal />
             </Link>
           </div>
 
-          <div className='hidden md:flex items-center space-x-6 lg:space-x-8 justify-end'>
-            <span className='text-right font-bold tracking-widest uppercase transition-colors duration-200'>
+          <div className='flex items-center sm:space-x-0 space-x-6 lg:space-x-8 justify-end'>
+            <span className='sm:hidden md:block text-right font-bold tracking-widest uppercase transition-colors duration-200'>
               Code. Lead. Deliver.
             </span>
             <ThemeToggle />
@@ -67,7 +67,7 @@ const Header = () => {
 
       {isOpen && (
         <div className='md:hidden border-t border-gray-100 absolute w-full left-0 top-full shadow-lg'>
-          <div className='flex flex-col p-6 space-y-4 text-center'>
+          <div className='flex flex-col p-6 space-y-4 text-center bg-background'>
             {navLinks.map((link) => (
               <Link
                 key={link.name}

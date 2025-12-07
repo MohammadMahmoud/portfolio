@@ -19,16 +19,16 @@ const ThemeToggle = () => {
       variant='outline'
       size='icon'
       onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
-      className='z-50 flex items-center justify-center rounded-full bg-background/80 px-12 py-5 backdrop-blur-sm transition-all text-sm font-medium'
+      className='z-50 flex items-center justify-center rounded-full bg-background/80 px-12 py-5 backdrop-blur-sm transition-all text-sm font-medium cursor-pointer'
     >
       {resolvedTheme === 'dark' ? (
         <>
-          Light
+          Dark
           <Sun className='h-5 w-5 ml-1' />
         </>
       ) : (
         <>
-          Dark
+          Light
           <Moon className='h-5 w-5 ml-1' />
         </>
       )}
