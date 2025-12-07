@@ -57,7 +57,7 @@ const Header = () => {
           </div>
 
           <div className='flex items-center sm:space-x-0 space-x-6 lg:space-x-8 justify-end'>
-            <span className='sm:hidden md:block text-right font-bold tracking-widest uppercase transition-colors duration-200'>
+            <span className='hidden lg:block text-right font-bold tracking-widest uppercase transition-colors duration-200'>
               Code. Lead. Deliver.
             </span>
             <ThemeToggle />
