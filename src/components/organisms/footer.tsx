@@ -16,7 +16,7 @@ const Footer = () => {
               href='https://www.linkedin.com/in/mohammed-mahmoud-0684067390/'
               target='_blank'
               rel='noopener noreferrer'
-              className='hover:text-[#0077b5] transition-colors duration-300'
+              className='hover:text-blue-700 dark:hover:text-red-700 transition-colors duration-300'
             >
               <Linkedin size={18} />
               <span className='sr-only'>LinkedIn</span>
@@ -26,7 +26,7 @@ const Footer = () => {
               href='https://github.com/MohammadMahmoud'
               target='_blank'
               rel='noopener noreferrer'
-              className='hover:text-black transition-colors duration-300'
+              className='hover:text-blue-700 dark:hover:text-red-700 transition-colors duration-300'
             >
               <Github size={18} />
               <span className='sr-only'>GitHub</span>

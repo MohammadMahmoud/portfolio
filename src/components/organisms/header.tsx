@@ -1,8 +1,8 @@
 'use client';
-import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import ThemeToggle from '../../app/hooks/theme-toggle';
+import AnimatedBurgerMenu from '../atoms/animated-burger-menu';
 import LogoTerminal from '../logos/logo-terminal';
 
 const Header = () => {
@@ -41,14 +41,7 @@ const Header = () => {
             ))}
           </div>
 
-          <div className='md:hidden flex justify-start'>
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className='text-gray-800 hover:text-black focus:outline-none'
-            >
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
-          </div>
+          <AnimatedBurgerMenu navLinks={navLinks} />
 
           <div className='flex  justify-center'>
             <Link href='/' className='relative block'>
@@ -64,23 +57,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
-      {isOpen && (
-        <div className='md:hidden border-t border-gray-100 absolute w-full left-0 top-full shadow-lg'>
-          <div className='flex flex-col p-6 space-y-4 text-center bg-background'>
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                className='hover:text-blue-700 dark:hover:text-red-700 block text-sm font-bold tracking-widest uppercase'
-                onClick={() => setIsOpen(false)}
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
     </nav>
   );
 };
