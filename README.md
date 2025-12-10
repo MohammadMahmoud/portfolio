@@ -15,7 +15,7 @@
   </a>
 </div>
 
-**10+ years crafting production-grade TypeScript/Node.js APIs, React UIs, and cloud-native systems**
+**10+ years crafting production-grade TypeScript/React/Next.js/Node.js APIs, React UIs, and cloud-native systems**
 
 [![Live Demo](https://img.shields.io/badge/Live-mmjs.com.de-1f2937?style=for-the-badge&logo=vercel&logoColor=white)](https://mmjs.com.de)
 [![MIT License](https://img.shields.io/github/license/MohammadMahmoud/portfolio)](LICENSE)
@@ -38,8 +38,7 @@
       <img src="https://skillicons.dev/icons?i=nodejs" width="50" />
       <br>StormForge API
       <br>
-      <a href="https://github.com/MohammadMahmoud/stormforge">⭐ GitHub</a> •
-      <a href="#">📋 API Docs</a>
+      <a href="https://github.com/MohammadMahmoud/stormforge">⭐ GitHub</a> 
     </td>
   </tr>
 </table>
@@ -66,16 +65,25 @@
 ## 🚀 Get Started
 
 Clone & install
+
+```shell
 git clone https://github.com/MohammadMahmoud/portfolio.git
 cd portfolio
 npm install
+```
 
 Development server
+
+```shell
 npm run dev
+```
 
 Build & preview production
+
+```shell
 npm run build
 npx serve out -s
+```
 
 **Live at →** https://mmjs.com.de ✨
 
@@ -89,7 +97,6 @@ npx serve out -s
 ## ⚡ Performance
 
 ```plantext
-✅ Lighthouse: 100/100 (SEO, Performance, Accessibility)
 ✅ Images: Compressed WebP (<100KB each)
 ✅ Bundle: Optimized static export (~50KB gzipped)
 ✅ Load time: <1s globally (CDN)
@@ -101,8 +108,7 @@ npx serve out -s
 - **🎯 Hero** → Professional intro + clear CTA
 - **👨‍💼 About** → 10+ years senior engineering experience
 - **🏢 Experience** → Ayvens, Swarovski, Engel & Völkers
-- **🛠 Skills** → React/Node/K8s/AWS full-stack mastery
-- **📁 Projects** → Production-grade showcases
+- **🛠 Skills** → React/Next.js/Node/K8s/AWS full-stack mastery
 - **📧 Contact** → Direct email + LinkedIn connect
 
 ## 🤝 Let's Connect
