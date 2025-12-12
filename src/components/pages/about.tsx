@@ -64,7 +64,14 @@ export default function About() {
                   <li>
                     React and Next.js UIs for high-traffic B2B/B2C products.
                   </li>
-
+                  <li>
+                    Angular and Ionic mobile applications for career and leasing
+                    platforms.
+                  </li>
+                  <li>
+                    WordPress and WooCommerce e-commerce solutions for diverse
+                    clients.
+                  </li>
                   <li>
                     Clear user flows for complex leasing and e-commerce
                     journeys.
@@ -88,6 +95,10 @@ export default function About() {
                   <li>
                     REST and GraphQL APIs backed by MySQL, PostgreSQL, and
                     MongoDB.
+                  </li>
+                  <li>
+                    PHP and Laravel backend development for CMS and e-commerce
+                    systems.
                   </li>
                   <li>
                     Cloud-native deployments on AWS, GCP, and Azure with
@@ -198,8 +209,8 @@ export default function About() {
               role='Technical Lead'
               company='Ayvens (formerly ALD Automotive)'
               location='Hamburg, Germany'
-              date='2020 Oct – Present'
-              description='Leading engineering for digital contracting, from architecture and cloud to hands-on delivery in React and Node.js.'
+              date='2022 May – Present'
+              description='Leading Engineer for digital contracting, from architecture and cloud to hands-on delivery in React and Node.js.'
               responsibilities={[
                 '<b>Team Leadership:</b> Scaled the engineering team from 0 to 3 members by redesigning the technical interview process, resulting in a 30% reduction in time-to-hire.',
                 '<b>Architecture:</b> Architected a system design solution for Digital Contracting, resolving a critical blocker and enabling fully legal, compliant digital leasing for B2B/B2C customers.',
@@ -213,9 +224,34 @@ export default function About() {
                 'Node.js',
                 'TypeScript',
                 'Microsoft Azure',
+                'Kubernetes',
                 'Systems Design',
                 'Test Automation',
                 'Mentoring',
+              ]}
+            />
+
+            <Timeline
+              role='Senior Software Engineer'
+              company='Ayvens (formerly ALD Automotive)'
+              location='Hamburg, Germany'
+              date='2020 Oct – 2022 May'
+              description='Leading Engineer for digital contracting, from architecture and cloud to hands-on delivery in React and Node.js.'
+              responsibilities={[
+                '<b>Integration:</b> Developed "The Button," a React-based web component integrated into high-traffic partner ecosystems (Tesla, Polestar, Hyundai, KIA), serving as the primary entry point for digital lease contracts.',
+                '<b>B2C Development:</b> Engineered "Instant-Lease-UI" as a React-based B2B leasing platform handling complex legal entity verification, document management, and credit checks via Web-ID integration',
+                '<b>Complex Logic:</b> Migrated and integrated the legacy Angular "Contract-UI" into Instant-Lease-UI, unifying B2C/B2B flows with IDnow-based credit checks for B2C customers.',
+                '<b>Testing:</b> Implemented end-to-end testing strategies using Jest and Playwright to ensure reliability across partner integrations',
+              ]}
+              skills={[
+                'React.js',
+                'Next.js',
+                'Node.js',
+                'TypeScript',
+                'Microsoft Azure',
+                'Kubernetes',
+                'Systems Design',
+                'Test Automation',
               ]}
             />
 
