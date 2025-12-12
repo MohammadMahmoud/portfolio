@@ -39,7 +39,7 @@ const Timeline = ({
           <div className='mb-4'>
             <ul className='list-disc list-inside text-sm space-y-1'>
               {responsibilities.map((res, idx) => (
-                <li key={idx}>{res}</li>
+                <li key={idx} dangerouslySetInnerHTML={{ __html: res }} />
               ))}
             </ul>
           </div>

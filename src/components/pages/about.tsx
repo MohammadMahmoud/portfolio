@@ -159,9 +159,9 @@ export default function About() {
               'React',
               'Next.js',
               'Node js',
-              'Go',
               'Express js',
               'Fastify',
+              'Go',
               'AWS',
               'Azure',
               'GCP',
@@ -194,18 +194,21 @@ export default function About() {
               date='2020 Oct – Present'
               description='Leading engineering for digital contracting, from architecture and cloud to hands-on delivery in React and Node.js.'
               responsibilities={[
-                'Architecting cloud-native solutions for B2B/B2C digital leasing',
-                'Scaling and mentoring a small engineering team',
-                'Improving CI/CD, Kubernetes workflows, and code quality',
-                'Collaborating with business and legal stakeholders',
+                '<b>Team Leadership:</b> Scaled the engineering team from 0 to 3 members by redesigning the technical interview process, resulting in a 30% reduction in time-to-hire.',
+                '<b>Architecture:</b> Architected a system design solution for Digital Contracting, resolving a critical blocker and enabling fully legal, compliant digital leasing for B2B/B2C customers.',
+                '<b>Code Quality:</b> Improved code quality by 30% through the implementation of strict Azure devops pipelines, code reviews, and mentorship programs.',
+                '<b>Performance:</b> Reduced deployment time by 40% by optimizing Kubernetes workflows and Azure infrastructure.',
+                '<b>Hands-on:</b> Maintained a 50-80% contribution rate to the codebase (React/Next.js/Node.js/Typescript) while managing high-level system design.',
               ]}
               skills={[
                 'React.js',
-                'Node.js',
                 'Next.js',
-                'Azure',
-                'Kubernetes',
-                'CI/CD',
+                'Node.js',
+                'TypeScript',
+                'Microsoft Azure',
+                'Systems Design',
+                'Test Automation',
+                'Mentoring',
               ]}
             />
 
@@ -214,14 +217,21 @@ export default function About() {
               company='Swarovski'
               location='Hamburg, Germany'
               date='2020 Apr – 2020 Aug'
-              description='Building and maintaining the Swarovski Professional B2B online shop and internal tools.'
+              description='Worked on Swarovski Professional B2B e-commerce platform and internal tools.'
               responsibilities={[
-                'Developing B2B commerce features with React and Node.js',
-                'Implementing GraphQL APIs for product and content data',
-                'Creating a custom CMS for marketing teams',
-                'Deploying and monitoring services on AWS',
+                '<b>B2B Commerce:</b> Developed and maintained the Swarovski Professional B2B Online Shop using React.js, GraphQL, Express.js, TypeScript',
+                '<b>CMS Development:</b> Engineered a custom-made Content Management System (CMS) to streamline product updates for the marketing team',
+                '<b>Cloud:</b> Deployed and managed services on AWS, ensuring high availability for global B2B traffic',
               ]}
-              skills={['React.js', 'Node.js', 'GraphQL', 'AWS']}
+              skills={[
+                'React.js',
+                'Node.js',
+                'Express.js',
+                'GraphQL',
+                'TypeScript',
+                'Test Automation',
+                'Amazon Web Services (AWS)',
+              ]}
             />
 
             <Timeline
@@ -229,14 +239,22 @@ export default function About() {
               company='Engel & Völkers'
               location='Hamburg, Germany'
               date='2018 Apr – 2020 Apr'
-              description='Delivering internal portals and fintech tools for a global real estate brand.'
+              description='Developed internal platforms and financial tools for the real estate company'
               responsibilities={[
-                'Building the EV-World internal portal with React',
-                'Developing a transaction and invoicing service',
-                'Designing and maintaining backend services on GCP',
-                'Working in an agile, cross-functional team',
+                "<b>Portal Development:</b> Built the 'EV-World Portal,' the central internal platform connecting all employees and managing agent profiles using React.js and GCP",
+                "<b>FinTech:</b> Developed the 'Transaction Service,' a critical financial tool for monitoring deals, payments, and invoices, ensuring data accuracy for the financial department using Koa.js and GCP",
+                '<b>Stack:</b> Utilized Koa.js/PHP for backend logic and React.js/SASS for a responsive front-end interface',
               ]}
-              skills={['React.js', 'Koa.js / Express.js', 'SASS', 'GCP']}
+              skills={[
+                'React.js',
+                'Koa.js',
+                'PHP',
+                'Node.js',
+                'Test Automation',
+                'Jenkins',
+                'Kubernetes',
+                'Google Cloud Platform (GCP)',
+              ]}
             />
 
             <Timeline
@@ -246,12 +264,18 @@ export default function About() {
               date='2017 Jul – 2018 Feb'
               description='Full-stack and mobile development for career and VR-related products.'
               responsibilities={[
-                'Rebuilding the Karreer mobile app with Ionic',
-                'Developing and maintaining REST APIs in Laravel',
-                'Supporting web projects for Sensular VR',
-                'Owning features end to end in a small team',
+                "<b>Mobile Development:</b> Led the redevelopment of the 'Karreer' mobile application using Ionic 3/TypeScript, improving performance and user experience",
+                '<b>Full Stack:</b> Mastered Laravel within a short timeframe to support backend API development and legacy system migration',
+                '<b>Adaptability:</b> Successfully relocated and integrated into a new Dutch engineering culture, quickly taking ownership of critical project deliverables',
               ]}
-              skills={['Ionic', 'Laravel', 'REST APIs', 'Angular']}
+              skills={[
+                'Laravel',
+                'PHP',
+                'Angular 2',
+                'Ionic Framework',
+                'TypeScript',
+                'Mobile Applications',
+              ]}
             />
 
             <Timeline
@@ -259,20 +283,23 @@ export default function About() {
               company='The Creative Zone'
               location='Cairo, Egypt'
               date='2014 Dec – 2017 Jun'
-              description='From junior to full-stack developer, delivering custom websites and e-commerce solutions.'
+              description='Developed custom websites and e-commerce solutions for various clients.'
               responsibilities={[
-                'Building websites from scratch using PHP and JavaScript',
-                'Developing WordPress and WooCommerce sites',
-                'Optimizing delivery time with reusable templates',
-                'Collaborating directly with clients and designers',
+                '<b>Web Development:</b> Progressed from junior developer to full-stack contributor, building custom websites using HTML5, CSS3, jQuery, and PHP',
+                '<b>CMS:</b> Specialized in WordPress and WooCommerce development, delivering e-commerce solutions for varied clients',
+                '<b>Optimization:</b> Reduced development turnaround time for static pages from 1 week to a few hours through efficient coding practices and template reuse',
               ]}
               skills={[
-                'HTML5',
-                'CSS3 / SASS',
+                'Angular',
                 'jQuery',
                 'PHP',
                 'WordPress',
                 'WooCommerce',
+                'Laravel',
+                'HTML5',
+                'CSS 3',
+                'SASS',
+                'Search Engine Optimization (SEO)',
               ]}
             />
           </div>
