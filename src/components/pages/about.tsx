@@ -1,11 +1,12 @@
-import Badge from '@/components/atoms/badge';
-import Separator from '@/components/atoms/separator';
-import Card from '@/components/molecules/card';
-import Timeline from '@/components/molecules/timeline';
 import { Download, Layout, Server } from 'lucide-react';
-import Image from 'next/image';
+
+import Badge from '@/components/atoms/badge';
 import CV from '../../../public/images/CV.png';
+import Card from '@/components/molecules/card';
+import Image from 'next/image';
 import MyPicture from '../../../public/images/me.jpeg';
+import Separator from '@/components/atoms/separator';
+import Timeline from '@/components/molecules/timeline';
 
 export default function About() {
   return (
@@ -34,20 +35,21 @@ export default function About() {
                 Career
               </h3>
               <p>
-                With 10+ years of experience, I have grown from full-stack web
-                developer to hands-on Technical Lead, designing scalable systems
-                and guiding teams across Europe and the Middle East. I have
-                delivered production-grade platforms for mobility, real estate,
-                e-commerce, and fintech, always balancing business goals with
-                clean architecture and code quality.
+                Hands-on Technical Lead and Full-Stack Engineer with 10+ years
+                of experience in designing scalable systems, writing
+                production-grade code, and solving complex architectural
+                challenges. Specialized in Typescript, React, Next.js, Node.js,
+                AWS, Azure, and GCP. Proven track record in mentoring engineers,
+                improving code quality, and delivering system design solutions
+                with advanced UI/UX polish.
               </p>
               <br />
               <p>
-                Today, I lead engineering for digital contracting at Ayvens in
+                Today, I lead the architect for digital contracting at Ayvens in
                 Hamburg, where I architect cloud-native solutions, improve CI/CD
                 and Kubernetes workflows, and still contribute directly in React
-                and Node.js. Before that, I shipped internal portals, B2B shops,
-                and mobile apps at Engel & Völkers, Swarovski, DBK, and
+                Next.js, Node.js Before that, I shipped internal portals, B2B
+                shops, and mobile apps at Engel & Völkers, Swarovski, DBK, and
                 agencies, working end to end from UI to cloud infrastructure.
               </p>
             </div>

@@ -37,7 +37,6 @@ const Timeline = ({
 
         {responsibilities.length > 0 && (
           <div className='mb-4'>
-            <h5 className='font-semibold text-sm mb-2'>Responsibilities:</h5>
             <ul className='list-disc list-inside text-sm space-y-1'>
               {responsibilities.map((res, idx) => (
                 <li key={idx}>{res}</li>
