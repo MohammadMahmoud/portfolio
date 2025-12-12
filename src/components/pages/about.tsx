@@ -236,7 +236,7 @@ export default function About() {
               company='Ayvens (formerly ALD Automotive)'
               location='Hamburg, Germany'
               date='2020 Oct – 2022 May'
-              description='Leading Engineer for digital contracting, from architecture and cloud to hands-on delivery in React and Node.js.'
+              description='As a Senior Software Engineer, I focus on digital contracting solutions, working across the full stack from architecture and cloud infrastructure to hands-on development with React and Node.js.'
               responsibilities={[
                 '<b>Integration:</b> Developed "The Button," a React-based web component integrated into high-traffic partner ecosystems (Tesla, Polestar, Hyundai, KIA), serving as the primary entry point for digital lease contracts.',
                 '<b>B2C Development:</b> Engineered "Instant-Lease-UI" as a React-based B2B leasing platform handling complex legal entity verification, document management, and credit checks via Web-ID integration',
